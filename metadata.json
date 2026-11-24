@@ -1,0 +1,6 @@
+{
+  "name": "کرایه‌یار — پرداخت سریع کرایه تاکسی",
+  "description": "وب‌اپلیکیشن پیش‌رونده (PWA) پرداخت مستقیم کارت‌به‌کارت کرایه تاکسی با مبلغ یکتا، اعلام صوتی و تایید پیامکی",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

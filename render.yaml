@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: kerayeyar-direct-pwa
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ACTIVE_GATEWAY
+        value: direct
+      - key: DATABASE_URL
+        sync: false
+      - key: LINK_SIGNING_SECRET
+        generateValue: true
+      - key: WEBHOOK_HMAC_SECRET
+        generateValue: true
